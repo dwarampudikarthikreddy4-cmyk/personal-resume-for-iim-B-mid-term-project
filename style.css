@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
 }
 
-/* warm bg  */
+
 
 h1, h2 { 
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -34,7 +34,6 @@ h1, h2 {
     box-shadow: 0 3px 12px rgba(94, 67, 40, 0.08);
 }
 
-/* nav  */
 
 .navbar a {
     text-decoration: none;
@@ -115,7 +114,6 @@ h1, h2 {
     width: 100%;
 }
 
-/* spacing  */
 
 .accordion-table {
     width: 100%;
