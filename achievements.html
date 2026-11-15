@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .achievements-grid .accordion-header, 
+        .achievements-grid .row-data {
+            grid-template-columns: 3fr 2fr 1fr; 
+        }
+
+        @media (max-width: 768px) {
+            .achievements-grid .accordion-header, 
+            .achievements-grid .row-data {
+                grid-template-columns: 1fr 1fr; 
+            }
+            .achievements-grid .accordion-header span:nth-child(3) {
+                display: none; 
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- nav  -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="academic.html">Academics</a>
+            <a href="achievements.html" class="active-link">Achievements</a>
+            <a href="skills.html">Skills & Hobbies</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- achivments  -->
+    <main class="main-content">
+        
+        <section class="content-section">
+            <h2>Achievements & Exams</h2>
+            
+            <div class="accordion-table achievements-grid">
+                
+                <div class="accordion-header">
+                    <span>Examination / Event</span>
+                    <span>Rank / Position</span>
+                    <span>Year</span>
+                </div>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>College student committee</span>
+                        <span>Head Boy</span>
+                        <span>2025-26</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">Getting the Head Boy role was not something I expected, honestly. I had already served as vice captain and learned a lot from that experience, especially how important it is to be consistent and actually listen to people. It wasn’t just about being active in front of everyone; it was more about earning trust and being reliable when things got busy. I think that’s what made the difference. By the time elections came around, people had seen my work, and it felt like a really meaningful moment. It was a good reminder that leadership is not just a title, it’s something you build over time, step by step.</p>
+                    </div>
+                </details>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>SAT</span>
+                        <span>1430(800/800-MATHS;630/800-READING)</span>
+                        <span>2025</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">Preparing for the SAT was a bit of a reality check for me, honestly. Maths felt super natural, so getting 800 there was not really a surprise, but the reading section was a whole different story. I used to struggle a lot with those long passages and tricky vocabulary, and there were days when it felt like I was just stuck. Still, I kept at it, practiced more, and slowly got better. That score is a mix of my strengths and my effort, and I think that’s what makes it feel real. It showed me that even the things I’m weak at can improve if I stay patient and keep working, even when it gets annoying.</p>
+                    </div>
+                </details>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>IELTS</span>
+                        <span>7.5 Band</span>
+                        <span>2026</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">I got a 7.5 in IELTS while also preparing for my BBA entrance exams, and honestly it worked out pretty well because both needed similar skills. Reading, writing, and time management were the common parts, so I tried to make my practice more efficient instead of treating everything separately. It wasn’t easy, but having a routine helped a lot, and I think that’s what made the difference. There were definitely days when I felt overloaded, but I kept going, and it paid off. It felt good to see that the hard work was translating into something useful, not just random studying for the sake of it.</p>
+                    </div>
+                </details>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>Hackathon</span>
+                        <span>top 50</span>
+                        <span>2019</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">I was only 11 when I got into that hackathon. But it was a big deal because it was my first real experience with tech and problem-solving outside school. My father helped me a lot and kept encouraging me, which made a huge difference. I spent weeks learning as much as I could and trying to build something smart enough to stand out. Making it to the top 50 among so 635 students was a really motivating moment for me.</p>
+                    </div>
+                </details>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>College student committee</span>
+                        <span>Vice-captain</span>
+                        <span>2024-25</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">Being vice captain was a big confidence boost for me because I had to step out of my comfort zone and actually talk to people, not just stay quiet and observe. I started getting more involved in campus life and trying to be more active with my classmates and teachers. At first it felt a little awkward, but slowly it became easier, and I began enjoying the responsibility. That experience taught me that leadership is not only about speaking in front of people, it’s also about being dependable and helping others. Looking back, it was one of those moments where I realised I could do more than I thought I could, even if I was a bit nervous at first.</p>
+                    </div>
+                </details>
+
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer class="site-footer">
+        <p>Thank you for visiting my website 🙏</p>
+    </footer>
+
+</body>
+</html>

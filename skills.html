@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills & Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .skills-grid .accordion-header, 
+        .skills-grid .row-data {
+            grid-template-columns: 3fr 2fr 1fr; 
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid .accordion-header, 
+            .skills-grid .row-data {
+                grid-template-columns: 1fr 1fr; 
+            }
+            .skills-grid .accordion-header span:nth-child(3) {
+                display: none; 
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- nav  -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="academic.html">Academics</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="skills.html" class="active-link">Skills & Hobbies</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- hobby  -->
+    <main class="main-content">
+        
+        <section class="content-section">
+            <h2>Skills & Hobbies</h2>
+            
+            <div class="accordion-table skills-grid">
+                
+                <div class="accordion-header">
+                    <span>Skill / Hobby</span>
+                    <span>Category</span>
+                    <span>Experience</span>
+                </div>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>Graphology</span>
+                        <span>Technical Skill</span>
+                        <span>2 Years</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">I got into graphology just because I was curious, not because it was part of some big plan. It’s actually really interesting how little things in handwriting can say so much about a person, like the angle of letters, spacing, and even how someone presses the pen. I started reading about it and then ended up analysing random samples for fun, which sounds weird but was honestly kinda cool. It helped me pay more attention to people and made me more observant in general. So yeah, it was more of a personal fascination than a formal skill, but it definitely taught me a lot.</p>
+                    </div>
+                </details>
+
+                <details class="accordion-row">
+                    <summary class="row-data">
+                        <span>Solving Cubes</span>
+                        <span>Hobby</span>
+                        <span>7 Years</span>
+                    </summary>
+                    <div class="expanded-content">
+                        <p class="creative-para">Solving Rubik’s cubes has been one of those hobbies that just stuck with me for years, and honestly I still enjoy it. At first it looked impossible, but then I got into the logic behind it and it became really satisfying when a pattern finally clicked. It kind of trains your patience and problem-solving, and also teaches you to not panic when things get messy. I’ve spent so many hours trying different methods and learning algorithms that it became more than just a hobby—it became a way to calm down and focus. It’s a small thing, but it really helps, no cap.</p>
+                    </div>
+                </details>
+
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer class="site-footer">
+        <p>Thank you for visiting my website 🙏</p>
+    </footer>
+
+</body>
+</html>
